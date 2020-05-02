@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Nitin Garg"
 title_separator          : "-"
 name                     : "Nitin Garg"
-description              : "Data Science Portfolio"
+description              : "Data Scientist"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,6 +106,7 @@ author:
   lastfm           :
   linkedin         : "nitin-basel"
   medium           : "@Nitin.Garg"
+  phone_num        : "+41 798566654"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
