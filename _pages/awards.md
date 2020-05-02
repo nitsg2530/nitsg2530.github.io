@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: pages
 permalink: /awards/
 title: "awards Wrangling projects"
 author_profile: true
