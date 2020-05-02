@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: pages
 permalink: /blogs/
 title: "blogs Wrangling projects"
 author_profile: true
