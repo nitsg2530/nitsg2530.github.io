@@ -1,5 +1,4 @@
 ---
-layout: pages
 permalink: /certificates/
 title: "certificates"
 author_profile: true

@@ -1,7 +1,6 @@
 ---
-layout: pages
 permalink: /blogs/
-title: "blogs Wrangling projects"
+title: "Blog contribution"
 author_profile: true
 header:
   image: "/images/fort point.jpg"
