@@ -1,7 +1,6 @@
 ---
-layout: pages
-permalink: /certificates/
-title: "certificates"
+permalink: /experience/
+title: "Professional Experience"
 author_profile: true
 header:
   image: "/images/fort point.jpg"
