@@ -2,8 +2,7 @@
 title: "Traffic Simulator"
 date: 2019-12-28
 tags: [simulation, data science, data generation]
-header:
-  image: "/images/perceptron/percept.jpg"
+
 excerpt: "simulation, data science, data generation"
 mathjax: "true"
 ---
@@ -86,7 +85,7 @@ as arguments and which carries out the simulation as described above.
 • There should be a method called plot network, which creates a plot of the network in its most recent state, as
 shown below. Occupied segments should be shown in red and unoccupied segments should be shown in green.
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/TrafficSimulator/Network.PNG)
+![alt]({{ site.url }}{{ site.baseurl }}/images/TrafficSimulator/network.PNG)
 
 • There should be a method called plot occupancy, which takes one ore more segment indices as argument(s) and
 which creates a line plot of the evolution of occupancy for each of these segments over time, as shown below. Each
