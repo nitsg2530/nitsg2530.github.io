@@ -24,7 +24,9 @@ In a slightly more abstract way we can represent this network as a directed grap
 segment. Red nodes in the graph represent nodes with a car and green nodes represent nodes without a car.
 ![alt]({{ site.url }}{{ site.baseurl }}/images/TrafficSimulator/EG2.PNG)
 
+
 ##Details
+
 ###Road network
 In the ZIP file for the project there are two CSV files, which contain a more complex example layout of a traffic network.
 
@@ -32,6 +34,7 @@ In the ZIP file for the project there are two CSV files, which contain a more co
 
 For example, the third row indicates that segment 2 connects to segment 3, i.e. a car which is currently in segment 2
 can move to segment 3. Segment 2 also connects to segment 12 as seen in the second-last row.
+
 
 ###Simulation
 The simulation is now carried out as follows.
@@ -73,6 +76,7 @@ For every minute and every segment, your simulation should also collect the foll
 **Flow** Number of times (during this minute) this road segment changed its state from “occupied” to “unoccupied” (depending
 on what is easier in your approach, you can either include the “death” of vehicles in this or not, if p_death is small this does
 not make a huge difference).
+
 
 ###Implementation
 Implement a class Network representing this traffic network.
