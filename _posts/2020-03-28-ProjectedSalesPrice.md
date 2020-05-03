@@ -1,9 +1,8 @@
 ---
-title: "Projected sale price of houses"
+title: "Projected sales price of houses"
 date: 2020-03-28
 tags: [linear regression, data science, predictive modelling]
-header:
-  image: "/images/perceptron/percept.jpg"
+
 excerpt: "Data Wrangling, Data Science, Predictive Modeling"
 mathjax: "true"
 ---
@@ -31,4 +30,4 @@ Imagine that you are a data analytics consultant for a firm who wants to get pro
 **price:** Final House Sale Price
 
 
-Now develop the best possible linear regression model to predict the house sale price using the variables using the techniques that you have learnt in this course. Interpret the variables included and provide explanation for your choice of best model.
+Now our target was to develop the best possible linear regression model to predict the house sale price using the variables. Interpret the variables included and provide explanation for our choice of best model.
