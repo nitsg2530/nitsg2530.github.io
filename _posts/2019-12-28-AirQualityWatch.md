@@ -1,10 +1,8 @@
 ---
 title: "Air Quality Watch"
 date: 2019-12-28
-tags: [data visualisation, R, Shiny, data wrangling, data science, data cleaning]
-header:
-  image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+tags: [data visualisation, R, Shiny, data wrangling, data science, data cleaning, time series data]
+excerpt: "Data Wrangling, Data Science, Messy Data, Data Visualisation"
 mathjax: "true"
 ---
 
@@ -12,6 +10,9 @@ mathjax: "true"
 
 ## A Shiny app which visualises air pollution data collected in the Czech Republic from 2013 to 2019. 
 ### The data is available from [European Environmental Agency](https://www.eea.europa.eu/themes/air). 
+
+### Check the [Shiny App...](https://nitin-garg.shinyapps.io/airqualitywatch/)
+
 * The file Stations.csv contains information about each station.
 * There is one CSV file for each station and each pollutant (PM2.5, PM10, SO2 and NO2) measured at the station (not every pollutant is measured at every station). 
 * The filenames are of the form <EoICode>_<PollutantCode>.csv. 
@@ -81,3 +82,5 @@ to measuring stations).
 • The user should be able to download the table as a CSV file and the plots and table together as a Word document
 (generated using rmarkdown).
 We can either use classical R plots or ggplot2
+
+### [GitHub](https://github.com/nitsg2530/AirQualityWatch)
