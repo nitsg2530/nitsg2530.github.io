@@ -1,7 +1,7 @@
 ---
 title: "Projected sales price of houses"
 date: 2020-03-28
-tags: [linear regression, data science, predictive modelling]
+tags: [linear regression, data science, predictive modelling, EDA, data analysis]
 
 excerpt: "Data Wrangling, Data Science, Predictive Modeling"
 mathjax: "true"
