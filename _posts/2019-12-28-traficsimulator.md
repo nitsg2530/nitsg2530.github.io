@@ -120,3 +120,6 @@ If you store the occupancy in a data frame or array and the flow in a data frame
 to minutes and columns correspond to segments, then you need to create a scatter plot of one row of the flow array
 against the corresponding row of the occupancy array.
 All methods should check whether the arguments provided are valid and raise a suitable exception otherwise.
+
+
+### [GitHub](https://github.com/nitsg2530/Traffic-Simulator)
