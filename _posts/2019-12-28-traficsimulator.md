@@ -8,7 +8,8 @@ mathjax: "true"
 ---
 
 
-##Background
+## Background
+
 In this project we will implement a simple traffic simulator and collect data from running it. More realistic and thus also more
 complex simulators, which work similar to the one we will implement, are being used, for example, to inform the choice of
 layouts for roads and junctions as well as to design signalling plans for traffic lights and schemes for variable speed limits.
@@ -16,7 +17,8 @@ In our simplified simulator roads consist of connected segments. Akin to railway
 or exactly one car. We assume that all roads are one-way only. In other words the simulator will be based on a directed graph
 consisting of connected nodes representing the road network.
 
-##Example
+## Example
+
 The figures below show a simple example of such a network. It shows the road network with some cars on it.
 ![alt]({{ site.url }}{{ site.baseurl }}/images/TrafficSimulator/EG1.PNG)
 
@@ -25,9 +27,9 @@ segment. Red nodes in the graph represent nodes with a car and green nodes repre
 ![alt]({{ site.url }}{{ site.baseurl }}/images/TrafficSimulator/EG2.PNG)
 
 
-##Details
+## Details
 
-###Road network
+### Road network
 In the ZIP file for the project there are two CSV files, which contain a more complex example layout of a traffic network.
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/TrafficSimulator/Node_edges.PNG)
@@ -36,7 +38,7 @@ For example, the third row indicates that segment 2 connects to segment 3, i.e. 
 can move to segment 3. Segment 2 also connects to segment 12 as seen in the second-last row.
 
 
-###Simulation
+### Simulation
 The simulation is now carried out as follows.
 
 For every (simulated) minute the simulator should run the following steps:
@@ -78,7 +80,7 @@ on what is easier in your approach, you can either include the “death” of ve
 not make a huge difference).
 
 
-###Implementation
+### Implementation
 Implement a class Network representing this traffic network.
 
 • The class should be able to construct the network from the information in the files described above.
