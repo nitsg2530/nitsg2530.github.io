@@ -31,3 +31,5 @@ Imagine that you are a data analytics consultant for a firm who wants to get pro
 
 
 Now our target was to develop the best possible linear regression model to predict the house sale price using the variables. Interpret the variables included and provide explanation for our choice of best model.
+
+### [GitHub](https://github.com/nitsg2530/ProjectedSalesPrice)

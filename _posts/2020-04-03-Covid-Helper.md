@@ -1,10 +1,10 @@
 ---
-title: "Covi Helper"
+title: "Covid Helper"
 date: 2020-04-03
 tags: [Chat bot, data science, Machine Learning, NLP]
 header:
   image: "/images/Covid-Helper/Covid.PNG"
-excerpt: "Machine Learning, Data Science, Data collection, Data Visualisation"
+excerpt: "Chat bots, Machine Learning, Data Science, Data collection, Data Visualisation"
 mathjax: "true"
 ---
 
