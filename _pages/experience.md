@@ -3,7 +3,7 @@ permalink: /experience/
 title: "Professional Experience"
 author_profile: true
 header:
-  image: "/images/fort point.jpg"
+  image: "/images/Move.jpeg"
 ---
 ----
 ### [Kore.ai Pvt. Ltd.](https://www.kore.ai) Hyderabad India, 

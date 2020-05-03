@@ -3,7 +3,7 @@ permalink: /blogs/
 title: "Blog contribution"
 author_profile: true
 header:
-  image: "/images/fort point.jpg"
+  image: "/images/Digital.jpg"
 ---
 
 

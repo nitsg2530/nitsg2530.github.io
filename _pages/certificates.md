@@ -3,7 +3,7 @@ permalink: /certificates/
 title: "Certificates"
 author_profile: true
 header:
-  image: "/images/fort point.jpg"
+  image: "/images/Innovation.jpg"
 ---
 
 
