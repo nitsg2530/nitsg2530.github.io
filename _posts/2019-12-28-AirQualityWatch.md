@@ -2,6 +2,9 @@
 title: "Air Quality Watch"
 date: 2019-12-28
 tags: [data visualisation, R, Shiny, data wrangling, data science, data cleaning, time series data]
+header:
+  image: "/images/AirQualityWatch/V1.PNG"
+   image: "/images/AirQualityWatch/V2.PNG"
 excerpt: "Data Wrangling, Data Science, Messy Data, Data Visualisation"
 mathjax: "true"
 ---
