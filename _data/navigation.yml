@@ -2,14 +2,12 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Data Wrangling Projects"
-    url: /data-wrangling/
   - title: "Projects"
     url: /projects/
-  - title: "Blogs"
-    url: /blogs/
   - title: "Experience"
     url: /experience/
+  - title: "Blogs"
+    url: /blogs/
   - title: "Awards"
     url: /awards/
   - title: "Certificates"
