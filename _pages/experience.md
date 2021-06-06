@@ -8,14 +8,15 @@ header:
 ----
 
 ### MSc. Dissertation Project: Conducted with Novartis Ireland, Dublin
-#### Guides:
-* Dr. Ashwini Mathur (Head DSAI Ireland Hub - Solution Lead Novartis Global Service Centre, Dublin, Ireland)   .
-* Rahul Som (Solutions Director, DSAI, Novartis Pharma AG, Basel, Switzerland)  .
-* Surajit Ray (Reader in Statistics School of Mathematics and Statistics University of Glasgow)  .
 
 #### Title: 
 **Prediction of rehospitalization and mortality due to Atherosclerotic Cardiovascular Disease (ASCVD) events in ICU setting using machine learning techniques on MIMIC III dataset**
+#### Guides:
+* Dr. Ashwini Mathur (Head DSAI Ireland Hub - Solution Lead Novartis Global Service Centre, Dublin, Ireland).
+* Rahul Som (Solutions Director, DSAI, Novartis Pharma AG, Basel, Switzerland).
+* Surajit Ray (Reader in Statistics School of Mathematics and Statistics University of Glasgow).
 
+----
 
 ### [Kore.ai Pvt. Ltd.](https://www.kore.ai) Hyderabad India, 
 
