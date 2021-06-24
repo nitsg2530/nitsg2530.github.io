@@ -3,7 +3,7 @@ title: "DIVVY Bike Share case study"
 date: 2021-06-20
 tags: [Data Analytics, Data Visualisation, Data science]
 
-excerpt: "Data Wrangling, Data Visualisation, data science", SQL"
+excerpt: "Data Wrangling, Data Visualisation, data science, SQL"
 mathjax: "true"
 ---
 
