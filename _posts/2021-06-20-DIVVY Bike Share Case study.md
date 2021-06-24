@@ -2,7 +2,8 @@
 title: "DIVVY Bike Share case study"
 date: 2021-06-20
 tags: [Data Analytics, Data Visualisation, Data science]
-
+header:
+  image: "/images/Bikeshare/Divvy_Explore_Hero_test.png"
 excerpt: "Data Wrangling, Data Visualisation, data science, SQL"
 mathjax: "true"
 ---
@@ -122,14 +123,9 @@ Following steps needs to be performed on the unzipped 12 months of data
 downloaded in the form of csv files (file naming would be
 *yyyymm-divvy-tripdata.csv*)
 
-<div class="figure">
 
-<img src="BikeShareAnalysis_files/figure-markdown_github/steps.png" alt="Steps taken for analysis" width="100%" />
-<p class="caption">
-Steps taken for analysis
-</p>
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/steps.png)
 
-</div>
 
 #### Step 0 (Manual)-
 
@@ -741,7 +737,7 @@ ggplot(aes(x=weekday , y=as.integer(abs(ride_duration)), group =member_casual, c
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-6-1.png)
 
 
 In the above plot it is clear that casual customers are using bikes for
@@ -768,7 +764,7 @@ ggplot( aes(x= Weekday, y=as.integer(trips), group =Membership, colour = Members
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-7-1.png)
 
 Number of rides taken by members are constant except weekend we see a
 dip here, on the other hand casual customers are more enthusiastic as
@@ -785,7 +781,7 @@ ggplot(aes(x= Weekday, y=as.integer(trip_percent), group =Membership, colour = M
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-8-1.png)
 
 Percentage share of trips by both segment of customers shows different
 pattern on weenday and weekend.
@@ -805,7 +801,7 @@ dm2 %>%
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-9-1.png)
 
 Duration of bike pick up is always high in case of casual customers,
 although Tuesday is most busiest weekday for both and weekends are
@@ -827,7 +823,7 @@ ggplot( aes(x= Weekday, y=Distance, group =Membership, colour = Membership)) +
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-10-1.png)
 
 Although the ride time is very high in case of casual customers but we
 are seeing that they are returning the bike at the nearest point from
@@ -846,7 +842,7 @@ ggplot(aes(x= dayofmonth, y=as.integer(trips), group =Membership, colour = Membe
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-11-1.png)
 
 As per the above plot, pattern of bike pickup is same for both customers
 through out the month.
@@ -864,7 +860,7 @@ ggplot( aes(x= rideable_type, y=as.integer(trips), group =Membership, colour = M
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-12-1.png)
 
 As per above plot the docked bike is favorite for both customers.
 
@@ -878,7 +874,7 @@ all_trips %>%
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-13-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-13-1.png)
 
 As we can see in Chicago summer is good time for outdoor sports, so
 bikes are picked by casual customers quite often but winters are hard
@@ -894,7 +890,7 @@ all_trips %>%
        caption = "Data collected from Divvy")
 ```
 
-![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/Bikeshare/unnamed-chunk-14-1.png)
 
 As per the pattern of bike pick throughout the day we see members are
 picking bikes for working hrs. Sudden dip after 6 PM shows those bikes
