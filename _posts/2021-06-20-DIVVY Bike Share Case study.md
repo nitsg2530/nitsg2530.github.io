@@ -41,7 +41,8 @@ How do annual members and casual riders use Divvy bikes differently?
 ### Data
 
 We will use DIVVY’s historical trip data to analyze and identify trends.
-Available at - <https://divvy-tripdata.s3.amazonaws.com/index.html>
+Available at -
+<https://divvy-tripdata.s3.amazonaws.com/index.html>
 
 For the purposes of this case study, the datasets are appropriate and
 will enable you to answer the business questions. The data has been made
@@ -145,32 +146,6 @@ Here we need to pre-process the CSV files.
 
 4.  Write the CSV files in “02_Data/Preprocessed_1” folder
 
-<!-- -->
-
-    ## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --
-
-    ## v ggplot2 3.3.4     v purrr   0.3.4
-    ## v tibble  3.1.2     v dplyr   1.0.6
-    ## v tidyr   1.1.3     v stringr 1.4.0
-    ## v readr   1.4.0     v forcats 0.5.1
-
-    ## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
-    ## x dplyr::filter() masks stats::filter()
-    ## x dplyr::lag()    masks stats::lag()
-
-    ## 
-    ## Attaching package: 'psych'
-
-    ## The following objects are masked from 'package:ggplot2':
-    ## 
-    ##     %+%, alpha
-
-    ## 
-    ## Attaching package: 'lubridate'
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     date, intersect, setdiff, union
 
 ``` r
 # Set the data directory path 
@@ -178,57 +153,57 @@ Here we need to pre-process the CSV files.
 setwd("D:/MyDataProjects/Divvy_bikesharing")
 datafolder = "02_Data/DataRaw"
 ###############
-# 
-# 
-# processedfolder = "02_Data/Preprocessed_1"
-# processedfolder2 = "02_Data/Preprocessed_2"
-# file_names = list.files(datafolder,pattern = "*.csv")
-# bikedfs <- list()
-# cl_bikedfs<- list()
-# for ( i in seq_along(file_names)){
-#   bikedfs[[i]] <- read_csv(file.path(datafolder,file_names[i]))
-# 
-#   colnames(bikedfs[[i]])
-#   colSums(is.na(bikedfs[[i]]))
-# 
-#   cl_bikedfs[[i]] <- drop_na(bikedfs[[i]])
-#   colSums(is.na(cl_bikedfs[[i]]))
-# 
-#   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
-#     mutate(Weekday = weekdays(as.Date(started_at)))
-# 
-#   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
-#     mutate(month = months(as.Date(started_at)))
-# 
-#   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
-#     mutate(dayofmonth = day(as.Date(started_at)))
-# 
-#   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
-#     mutate(pickup_date = as.Date(started_at))
-# 
-#   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
-#     mutate(pickup_time = format(started_at, format = "%H:%M:%S"))
-# 
-#   intv <- interval(cl_bikedfs[[i]]$started_at, cl_bikedfs[[i]]$ended_at)
-# 
-#   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
-#     mutate(ride_duration = trunc(time_length(intv, "minutes")))
-# 
-#   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
-#     mutate(ride_distance = as.integer(distHaversine(cl_bikedfs[[i]][,9:10], cl_bikedfs[[i]][,11:12])))
-# 
-#   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
-#     select(-ride_id, -end_station_id,-start_station_id)
-# 
-#   write_csv(cl_bikedfs[[i]], file.path(processedfolder,paste ("cl_",file_names[[i]])), append=FALSE)
-# 
-#   #cl_bike_master <- rbind(cl_bike_master,cl_bikedfs[[i]])
-#   # write.xlsx(
-#   #   cl_bikedfs[[i]],
-#   #   file =  file.path(processedfolder,paste (trimws(paste("cl_",file_names[[i]])),".xlsx")),
-#   #   colNames = TRUE, overwrite =TRUE
-#   # )
-# }
+ 
+ 
+ processedfolder = "02_Data/Preprocessed_1"
+ processedfolder2 = "02_Data/Preprocessed_2"
+ file_names = list.files(datafolder,pattern = "*.csv")
+ bikedfs <- list()
+ cl_bikedfs<- list()
+ for ( i in seq_along(file_names)){
+   bikedfs[[i]] <- read_csv(file.path(datafolder,file_names[i]))
+ 
+   colnames(bikedfs[[i]])
+   colSums(is.na(bikedfs[[i]]))
+ 
+   cl_bikedfs[[i]] <- drop_na(bikedfs[[i]])
+   colSums(is.na(cl_bikedfs[[i]]))
+ 
+   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
+     mutate(Weekday = weekdays(as.Date(started_at)))
+ 
+   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
+     mutate(month = months(as.Date(started_at)))
+ 
+   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
+     mutate(dayofmonth = day(as.Date(started_at)))
+ 
+   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
+     mutate(pickup_date = as.Date(started_at))
+ 
+   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
+     mutate(pickup_time = format(started_at, format = "%H:%M:%S"))
+ 
+   intv <- interval(cl_bikedfs[[i]]$started_at, cl_bikedfs[[i]]$ended_at)
+ 
+   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
+     mutate(ride_duration = trunc(time_length(intv, "minutes")))
+ 
+   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
+     mutate(ride_distance = as.integer(distHaversine(cl_bikedfs[[i]][,9:10], cl_bikedfs[[i]][,11:12])))
+ 
+   cl_bikedfs[[i]] <- cl_bikedfs[[i]] %>%
+     select(-ride_id, -end_station_id,-start_station_id)
+ 
+   write_csv(cl_bikedfs[[i]], file.path(processedfolder,paste ("cl_",file_names[[i]])), append=FALSE)
+ 
+   #cl_bike_master <- rbind(cl_bike_master,cl_bikedfs[[i]])
+   # write.xlsx(
+   #   cl_bikedfs[[i]],
+   #   file =  file.path(processedfolder,paste (trimws(paste("cl_",file_names[[i]])),".xlsx")),
+   #   colNames = TRUE, overwrite =TRUE
+   # )
+ }
 ```
 
 #### Step 2 (Using SQL)-
@@ -511,7 +486,6 @@ Creating the connection with postgres SQL server locally loaded, life
 will be easy once you get connection created successfully. We can do
 analysis on the stored data, there is no limit now.
 
-    ## Loading required package: DBI
 
 Very first query checking what we have
 
