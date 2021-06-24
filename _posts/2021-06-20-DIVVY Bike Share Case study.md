@@ -3,15 +3,12 @@ title: "DIVVY Bike Share case study"
 date: 2021-06-20
 tags: [Data Analytics, Data Visualisation, Data science]
 
-excerpt: "Data Wrangling, Data Visualisation, data science", "SQL"
+excerpt: "Data Wrangling, Data Visualisation, data science", SQL"
 mathjax: "true"
 ---
 
-----
 
-------------------------------------------------------------------------
-
-### About DIVVY
+## About DIVVY
 
 In 2013, DIVVY launched a successful bike-share offering. Since then,
 the program has grown to a fleet of 5,824 bicycles that are geo-tracked
