@@ -124,7 +124,7 @@ downloaded in the form of csv files (file naming would be
 
 <div class="figure">
 
-<img src="steps.png" alt="Steps taken for analysis" width="100%" />
+<img src="BikeShareAnalysis_files/figure-markdown_github/steps.png" alt="Steps taken for analysis" width="100%" />
 <p class="caption">
 Steps taken for analysis
 </p>
@@ -742,6 +742,7 @@ ggplot(aes(x=weekday , y=as.integer(abs(ride_duration)), group =member_casual, c
 ```
 
 ![](BikeShareAnalysis_files/figure-markdown_github/unnamed-chunk-6-1.png)
+
 
 In the above plot it is clear that casual customers are using bikes for
 longer terms once they pick it, only Tuesday we see some members
