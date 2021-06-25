@@ -7,7 +7,7 @@ header:
 ---
 
 
-* Coursera - Google Data Analytics Specialization (in progress) 
+* Coursera - Google Data Analytics Specialization [See Credential...](https://coursera.org/share/8e086563115d3807abf5b09a3d2f8d32)
 * Coursera - Getting Started with SAS Programming May 2021 Credential ID HA5VGHP7DRDC - [See Credential...](https://www.coursera.org/account/accomplishments/verify/HA5VGHP7DRDC)
 * Coursera - Getting and Cleaning Data Aug 2019 Credential ID WP4JWSV94ULK - [See Credential...](https://www.coursera.org/account/accomplishments/verify/WP4JWSV94ULK)
 * Coursera - R Programming Aug 2019 Credential ID HGPYJ8AQJJM2 - [See Credential...](https://www.coursera.org/account/accomplishments/verify/HGPYJ8AQJJM2)
